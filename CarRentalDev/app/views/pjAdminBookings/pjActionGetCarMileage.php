@@ -1,0 +1,1 @@
+<?php echo __('car_current_mileage') ; ?>: <a href="javascript:void(0)" id="setStartValue" rel="<?php echo $tpl['arr']['mileage'] ?>" ><?php echo number_format($tpl['arr']['mileage'],0," "," ") ?><?php echo $tpl['option_arr']['o_unit'] ?></a>
